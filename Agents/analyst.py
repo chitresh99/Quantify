@@ -8,17 +8,17 @@ from agno.tools.yfinance import YFinanceTools
 
 load_dotenv()
 
-google_api = os.getenv('GOOGLE_API_KEY')
+google_api = os.getenv("GOOGLE_API_KEY")
 
 agent = Agent(
-    model=Gemini(id="gemini-2.0-flash",api_key=google_api),  
+    model=Gemini(id="gemini-2.0-flash", api_key=google_api),
     tools=[
         ReasoningTools(add_instructions=True),
         YFinanceTools(
             stock_price=True,
             analyst_recommendations=True,
             company_info=True,
-            company_news=True
+            company_news=True,
         ),
     ],
     instructions=[
@@ -28,16 +28,15 @@ agent = Agent(
     markdown=True,
 )
 
+
 def list_of_companies():
     return ["Century Aluminum Company", "Nucor Corporation"]
+
 
 stocks = list_of_companies()
 agent.print_response(
     stocks=stocks,
     message=f"Write a report on {', '.join(stocks)}",
     stream=True,
-    show_full_reasoning=True
+    show_full_reasoning=True,
 )
-
-
-
