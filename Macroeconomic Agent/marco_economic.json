@@ -1,0 +1,107 @@
+{
+  "year": 2025,
+  "S&P_500_index_monthly_closing": {
+    "Jan_2025": 5979.52,
+    "Feb_2025": 6038.69,
+    "Mar_2025": 5683.98,
+    "Apr_2025": 5369.50,
+    "May_2025": 5810.92,
+    "Jun_2025": 6029.95,
+    "Jul_2025": 6296.50,
+    "Aug_2025": 6492.18
+  },
+  "US_10_year_Treasury_yield_monthly": {
+    "Jan_2025": 4.15,
+    "Feb_2025": 4.12,
+    "Mar_2025": 4.19,
+    "Apr_2025": 4.20,
+    "May_2025": 4.15,
+    "Jun_2025": 4.26,
+    "Jul_2025": 4.36,
+    "Aug_2025": 4.23
+  },
+  "USD_EUR_exchange_rate_monthly": {
+    "Jan_2025": 0.921,
+    "Feb_2025": 0.927,
+    "Mar_2025": 0.922,
+    "Apr_2025": 0.923,
+    "May_2025": 0.918,
+    "Jun_2025": 0.875,
+    "Jul_2025": 0.858,
+    "Aug_2025": 0.863
+  },
+  "Gold_price_USD_per_oz_monthly": {
+    "Jan_2025": 2055,
+    "Feb_2025": 2044,
+    "Mar_2025": 2102,
+    "Apr_2025": 2205,
+    "May_2025": 2248,
+    "Jun_2025": 2320,
+    "Jul_2025": 2325,
+    "Aug_2025": 3448
+  },
+  "Crude_Oil_price_USD_per_bbl_monthly": {
+    "Jan_2025": 77.77,
+    "Feb_2025": 78.15,
+    "Mar_2025": 82.96,
+    "Apr_2025": 74.83,
+    "May_2025": 69.12,
+    "Jun_2025": 72.23,
+    "Jul_2025": 68.70,
+    "Aug_2025": 64.01
+  },
+  "Employment": [
+    {"month": "Jan", "unemployment_rate": 4.1, "job_creation": 190000},
+    {"month": "Feb", "unemployment_rate": 4.1, "job_creation": 150000},
+    {"month": "Mar", "unemployment_rate": 4.2, "job_creation": 160000},
+    {"month": "Apr", "unemployment_rate": 4.2, "job_creation": 130000},
+    {"month": "May", "unemployment_rate": 4.2, "job_creation": 170000},
+    {"month": "Jun", "unemployment_rate": 4.1, "job_creation": 80000},
+    {"month": "Jul", "unemployment_rate": 4.2, "job_creation": 73000}
+  ],
+  "CPI": [
+    {"month": "Jan", "year_over_year": 2.6, "monthly_change": 0.2, "core_monthly_change": 0.2},
+    {"month": "Feb", "year_over_year": 2.5, "monthly_change": 0.3, "core_monthly_change": 0.3},
+    {"month": "Mar", "year_over_year": 2.7, "monthly_change": 0.4, "core_monthly_change": 0.3},
+    {"month": "Apr", "year_over_year": 2.5, "monthly_change": 0.2, "core_monthly_change": 0.2},
+    {"month": "May", "year_over_year": 2.6, "monthly_change": 0.3, "core_monthly_change": 0.2},
+    {"month": "Jun", "year_over_year": 2.7, "monthly_change": 0.3, "core_monthly_change": 0.2},
+    {"month": "Jul", "year_over_year": 2.7, "monthly_change": 0.2, "core_monthly_change": 0.3}
+  ],
+  "PPI": [
+    {"month": "Jan", "year_over_year": 2.7, "monthly_change": 0.1},
+    {"month": "Feb", "year_over_year": 2.6, "monthly_change": 0.2},
+    {"month": "Mar", "year_over_year": 2.8, "monthly_change": 0.1},
+    {"month": "Apr", "year_over_year": 2.7, "monthly_change": 0.1},
+    {"month": "May", "year_over_year": 3.0, "monthly_change": 0.5},
+    {"month": "Jun", "year_over_year": 2.9, "monthly_change": 0.3},
+    {"month": "Jul", "year_over_year": 3.3, "monthly_change": 0.9}
+  ],
+  "Retail Sales MoM": [
+    {"month": "Jan", "monthly_change": 0.4},
+    {"month": "Feb", "monthly_change": 0.5},
+    {"month": "Mar", "monthly_change": 0.6},
+    {"month": "Apr", "monthly_change": -0.2},
+    {"month": "May", "monthly_change": -0.9},
+    {"month": "Jun", "monthly_change": 0.6},
+    {"month": "Jul", "monthly_change": 0.5}
+  ],
+  "Industrial Production": [
+    {"month": "Jan", "year_over_year": 2.0, "monthly_change": 0.1, "index_level": 103.8},
+    {"month": "Feb", "year_over_year": 1.1, "monthly_change": 0.0, "index_level": 103.9},
+    {"month": "Mar", "year_over_year": 0.6, "monthly_change": -0.3, "index_level": 103.6},
+    {"month": "Apr", "year_over_year": 0.0, "monthly_change": 0.0, "index_level": 103.7},
+    {"month": "May", "year_over_year": 0.1, "monthly_change": 0.0, "index_level": 103.7},
+    {"month": "Jun", "year_over_year": 0.4, "monthly_change": 0.4, "index_level": 104.1},
+    {"month": "Jul", "year_over_year": 1.4, "monthly_change": -0.1, "index_level": 104.0}
+  ],
+  "Consumer Sentiment": [
+    {"month": "Jan", "index": 65.6},
+    {"month": "Feb", "index": 67.4},
+    {"month": "Mar", "index": 64.2},
+    {"month": "Apr", "index": 63.5},
+    {"month": "May", "index": 59.5},
+    {"month": "Jun", "index": 60.7},
+    {"month": "Jul", "index": 61.7}
+  ]
+}
