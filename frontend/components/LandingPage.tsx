@@ -5,6 +5,7 @@ import AnimatedBackground from './AnimatedBackground';
 import Navbar from './Navbar';
 import Hero from './Hero';
 import Features from './Features';
+import Footer from './Footer';
 
 const LandingPage: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ const LandingPage: React.FC = () => {
       <Navbar/>
       <Hero/>
       <Features/>
+      <Footer/>
     </div>
   );
 };
