@@ -9,7 +9,6 @@ import json
 
 async def summarization():
     raw_data = await newsandsentiment()
-    print(raw_data)
 
     client = OpenAI(
         base_url="https://openrouter.ai/api/v1",
@@ -51,4 +50,5 @@ async def summarization():
         temperature=0.7,
         max_tokens=2000,
     )
-    print(completion.choices[0].message.content)
+    output = completion.choices[0].message.content
+    return output

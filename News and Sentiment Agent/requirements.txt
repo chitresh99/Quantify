@@ -3,3 +3,4 @@ python-dotenv
 uvicorn[standard]
 fastapi[standard]
 openai
+requests
