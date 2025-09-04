@@ -1,13 +1,18 @@
 from fastapi import FastAPI
+from openai_service import summarization
 
 app = FastAPI()
 
 
 @app.get("/")
-async def introduction():
+def introduction():
     return {"message": "Hello this is Dex , your market data agent"}
 
 
 @app.get("/dex")
-async def dex():
-    pass
+def dex():
+    try:
+        response = summarization()
+        return {"analysis": response}
+    except Exception as e:
+        print("Something went wrong", {e})

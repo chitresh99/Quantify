@@ -29,22 +29,26 @@ You must provide clear, insightful, and engaging commentary that feels like it c
 *** DO NOT MAKE ASSUMPTIONS ABOUT THE DATA YOU DON'T HAVE *** JUST STICK TO THE ORIGINAL DATA AND JUST PRESENT IT NICELY ***
 
 """
-client = OpenAI(
-    base_url="https://openrouter.ai/api/v1",
-    api_key=DEX_OPENROUTER_API_KEY,
-)
 
-completion = client.chat.completions.create(
-    model="moonshotai/kimi-k2:free",
-    messages=[
-        {
-            "role": "system",
-            "content": "You are a Senior Finance News Reporter, responsible for analyzing and presenting financial market developments—including stocks, cryptocurrencies, and forex—in a clear, insightful, and engaging journalistic style suitable for a top financial news outlet.",
-        },
-        {"role": "user", "content": system_prompt},
-    ],
-    temperature=0.7,
-    max_tokens=2000,
-)
 
-print(completion.choices[0].message.content)
+def summarization():
+    client = OpenAI(
+        base_url="https://openrouter.ai/api/v1",
+        api_key=DEX_OPENROUTER_API_KEY,
+    )
+
+    completion = client.chat.completions.create(
+        model="moonshotai/kimi-k2:free",
+        messages=[
+            {
+                "role": "system",
+                "content": "You are a Senior Finance News Reporter, responsible for analyzing and presenting financial market developments—including stocks, cryptocurrencies, and forex—in a clear, insightful, and engaging journalistic style suitable for a top financial news outlet.",
+            },
+            {"role": "user", "content": system_prompt},
+        ],
+        temperature=0.7,
+        max_tokens=2000,
+    )
+
+    response = completion.choices[0].message.content
+    return response
