@@ -1,0 +1,6 @@
+python-dotenv
+uvicorn[standard]
+fastapi[standard]
+openai
+black
+requests
