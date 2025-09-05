@@ -51,6 +51,9 @@ async def summarization():
     - Acknowledge when data shows mixed signals rather than forcing a narrative
     - Do not use words like "Of course", "Oh", Keep it really formal and provide only the required information
     Format with clear headers and practical insights for investors.
+
+    ** DO NOT USE MARKDOWN FORMAT IN THE RESPONSE **
+
     """
 
     completion = client.chat.completions.create(

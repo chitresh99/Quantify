@@ -3,3 +3,14 @@ python-dotenv
 uvicorn[standard]
 fastapi[standard]
 openai
+httpx
+python-dotenv
+uvicorn[standard]
+fastapi[standard]
+openai
+httpx
+python-dotenv
+uvicorn[standard]
+fastapi[standard]
+openai
+aiofiles
