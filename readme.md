@@ -19,7 +19,7 @@
 - Presents it like a finance news reporter.
 
 ### News & Sentiment Agent
-- Fetches financial news, analyzes market sentiment, and provides investment insights through a simple API.
+- Fetches financial news, analyzes market sentiment, and provides investment insights.
 
 ---
 
